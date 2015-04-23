@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <meta name="description" content="Webpage">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  
+  <body>
+ <button id="openButton">Open Market</button>
+    <div class="container">
+
+      <div class="market">
+        <h1>Market</h1>
+
+        <div class="fruitmarket">
+          <img src="apple.png"/><br>
+          <div id="applePrice"></div>
+          <button id="appleButton">Buy</button>
+        </div>
+
+        <div class="fruitmarket">
+          <img src="orange.png"/><br>
+          <div id="orangePrice"></div>
+          <button id="orangeButton">Buy</button>
+        </div>
+
+        <div class="fruitmarket">
+          <img src="bananas.png"/><br>
+          <div id="bananaPrice"></div>
+          <button id="bananaButton">Buy</button>
+        </div>
+
+        <div class="fruitmarket">
+          <img src="pear.png"/><br>
+          <div id="pearPrice"></div>
+          <button id="pearButton">Buy</button>
+        </div>
+      </div>
+
+      <div class="userDisplay">
+        <h1>Basket</h1>
+
+        <div class="fruitBasket">
+          <label>Apple</label>
+          <div id="appleCount"></div>
+          <div id="avgApplePrice"></div>
+          <button id="sellApple">Sell</button>
+        </div>
+
+        <div class="fruitBasket">
+          <label>Orange</label>
+          <div id="orangeCount"></div>
+          <div id="avgOrangePrice"></div>
+          <button id="sellOrange">Sell</button>
+        </div>
+
+        <div class="fruitBasket">
+          <label>Banana</label>
+          <div id="bananaCount"></div>
+          <div id="avgBananaPrice"></div>
+          <button id="sellBanana">Sell</button>
+        </div>
+
+        <div class="fruitBasket">
+          <label>Pear</label>
+          <div id="pearCount"></div>
+          <div id="avgPearsPrice"></div>
+          <button id="sellPear">Sell</button>
+        </div>
+
+        <div class="cash">
+          <div id="totalCash"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </body>
+</html>

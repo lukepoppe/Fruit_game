@@ -1,0 +1,91 @@
+body {
+	background: url("fruitBack.png") repeat;
+}
+
+.container {	
+	margin: 25px 10% 25px 10%;
+}
+
+.market {
+	text-align: center;
+	width: 49%;
+	height: 80%;
+	float: left;
+	margin: 10px auto 10px auto;
+	background-color: rgba(0, 200, 50, .9);
+	border-radius: 15px;
+}
+
+
+.userDisplay {
+	text-align: center;
+	width: 49%;
+	height: 80%;
+	float: right;
+	margin: 10px auto 10px auto;
+	background-color: rgba(0, 0, 255, .9);
+	border-radius: 15px;
+}
+
+.fruitBasket  {
+	width: 49%;
+	height: 80%;
+	margin: 10px auto 10px auto;
+	display: block;
+	background-color: rgba(0, 0, 0, .75);
+	border-radius: 15px;
+}
+.fruitmarket{
+	width: 49%;
+	height: 80%;
+	margin: 10px auto 10px auto;
+	display: block;
+	background-color: rgba(0, 0, 0, .75);
+	border-radius: 15px;
+}
+
+h1 {
+	color: white;
+	font-size: 30px;
+	font-family: Montserrat;
+}
+
+label {
+	display: inline;
+	color: white;
+	font-size: 46px;
+	margin: 10px;
+	font-family: Montserrat;
+}
+
+p {
+	display: inline;
+	color: white;
+	font-size: 20px;
+	margin: 10px;
+	font-family: Montserrat;
+
+}
+
+button {
+	margin: 10px auto 10px auto;
+	height: 30px;
+	width: 100px;
+	border-radius: 15px;
+	font-family: Montserrat;
+	font-size: 20px;
+}
+
+#openButton {
+	display: block;
+	margin: 10px auto 10px auto;
+	height: 50px;
+	width: 200px;
+	border-radius: 15px;
+	font-family: Montserrat;
+	font-size: 20px;
+}
+
+img {
+	display: inline;
+}
